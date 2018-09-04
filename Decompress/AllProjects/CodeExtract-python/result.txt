@@ -1,0 +1,1381 @@
+filename: StringProcessor.java
+md5: 04e8e34925864e85587eca1378f2fa7c
+classname:
+['Upcase', 'Downcase', 'Splitter']
+function:
+[{"function": "name", "params": [""]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}]
+include or import or require :
+[' java.util.*;']
+notes:
+[': interfaces/interfaceprocessor/StringProcessor.java', ' Covariant return', " Output:Using Processor UpcaseIF SHE WEIGHS THE SAME AS A DUCK, SHE'S MADE OF WOODUsing Processor Downcaseif she weighs the same as a duck, she's made of woodUsing Processor Splitter[If, she, weighs, the, same, as, a, duck,, she's, made, of, wood]", ':~']
+****************************************************************************************************filename: 16.4.c
+md5: 8a9a338cf43145bd5a072ee02a3eae80
+classname:
+
+function:
+[{"function": "connect_retry", "params": ["int sockfd", " const struct sockaddr *addr", " socklen_t alen"]}, {"function": "print_uptime", "params": ["int sockfd"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <unistd.h>', ' <netdb.h>', ' <errno.h>', ' <sys/socket.h>']
+notes:
+[]
+****************************************************************************************************filename: sales.h
+md5: ca476f6428584933bafb049bf4a847af
+classname:
+['Sales', 'LabeledSales']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: 10.22.c
+md5: e28494cb0ae1f7456c14a970853517bd
+classname:
+
+function:
+[{"function": "sig_tstp", "params": ["int"]}, {"function": "sig_tstp", "params": ["int signo"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <signal.h>', ' <unistd.h>']
+notes:
+['sdadaw asds ', 'eqwr wqde a']
+****************************************************************************************************filename: mails.php
+md5: bc08e561f9cc6693cd2c90f7114d9949
+classname:
+[]
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[]
+notes:
+[' note we can get more detailed information by using from and to', ' rather than fromaddress and toaddress, but these are easier', ' does this user have an account with this id?', ' get an array of the account ids that belong to this user', ' get the number of accounts that belong to this user', "delete one of this user's accounts from the DB"]
+****************************************************************************************************filename: iterator.php
+md5: ddb0e8015899049f7d895daaad96f1ba
+classname:
+['ObjectIterator', 'Object']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[]
+notes:
+['deqwqew312\t', 'vsdfvs', 'eqwfr', 'weqw']
+****************************************************************************************************filename: pairs.cpp
+md5: 2ae3f14d48b74f41b3ab8d9d4bc882dd
+classname:
+
+function:
+[]
+include or import or require :
+[' <iostream>', ' <string>']
+notes:
+[' pairs.cpp -- define and use a Pair template']
+****************************************************************************************************filename: Frog.java
+md5: e4c4478d96189795a436344a92f25017
+classname:
+['Characteristic', 'Description', 'LivingCreature', 'Animal', 'Amphibian', 'Frog']
+function:
+[{"function": "Characteristic", "params": ["String s"]}, {"function": "Description", "params": ["String s"]}, {"function": "Animal", "params": [""]}, {"function": "Amphibian", "params": [""]}, {"function": "Frog", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': polymorphism/Frog.java', ' Cleanup and inheritance.', ' Output:Creating Characteristic is aliveCreating Description Basic Living CreatureLivingCreature()Creating Characteristic has heartCreating Description Animal not VegetableAnimal()Creating Characteristic can live in waterCreating Description Both water and landAmphibian()Creating Characteristic CroaksCreating Description Eats BugsFrog()Bye!Frog disposedisposing Description Eats Bugsdisposing Characteristic CroaksAmphibian disposedisposing Description Both water and landdisposing Characteristic can live in waterAnimal disposedisposing Description Animal not Vegetabledisposing Characteristic has heartLivingCreature disposedisposing Description Basic Living Creaturedisposing Characteristic is alive', ':~']
+****************************************************************************************************filename: tv.h
+md5: 92944bdddbdcf6e406a03cc67a10de34
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: ConcreteStates.h
+md5: 1e308e08004c66b06b877b337f939d24
+classname:
+['ImpossibleException', 'ReadyState', 'RunningState', 'BlockedState']
+function:
+[{"function": "ReadyState", "params": ["Process *p", " string n"]}, {"function": "RunningState", "params": ["Process *p", " string n"]}, {"function": "BlockedState", "params": ["Process *p", " string n"]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}]
+include or import or require :
+[' <iostream>', ' <string>', ' "Process.h"']
+notes:
+[]
+****************************************************************************************************filename: vect2.cpp
+md5: 20cae87285f11cf16a490be973a3d00b
+classname:
+
+function:
+[{"function": "FillReview", "params": ["Review & rr"]}, {"function": "ShowReview", "params": ["const Review & rr"]}, {"function": "FillReview", "params": ["Review & rr"]}, {"function": "ShowReview", "params": ["const Review & rr"]}]
+include or import or require :
+[' <iostream>', ' <string>', ' <vector>']
+notes:
+[' vect2.cpp -- methods and iterators', ' copy constructor used', ' remove 2 items', ' insert 1 item']
+****************************************************************************************************filename: sales.h
+md5: ca476f6428584933bafb049bf4a847af
+classname:
+['Sales', 'LabeledSales']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: State.h
+md5: c2f10f509a1486f4221ac1680532ca75
+classname:
+['State']
+function:
+[{"function": "State", "params": ["string n"]}, {"function": "getName", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}]
+include or import or require :
+[' <string>']
+notes:
+[]
+****************************************************************************************************filename: tabtenn1.h
+md5: 9ba3a09c1cea120c0d3a190008238072
+classname:
+['class', 'class']
+function:
+[{"function": "Name", "params": [""]}, {"function": "HasTable", "params": [""]}, {"function": "ResetTable", "params": ["bool v"]}, {"function": "Rating", "params": [""]}, {"function": "ResetRating", "params": ["unsigned int r"]}]
+include or import or require :
+[]
+notes:
+[' tabtenn1.h  -- simple inheritance', ' simple base class', ' simple derived class']
+****************************************************************************************************filename: workermi.h
+md5: b91aecdc37a327ecfd3cc392e3efacd3
+classname:
+['Worker', 'Waiter', 'Singer', 'SingingWaiter']
+function:
+[{"function": "Worker", "params": [""]}, {"function": "Waiter", "params": [""]}, {"function": "Singer", "params": [""]}, {"function": "SingingWaiter", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}]
+include or import or require :
+[' <string>']
+notes:
+[' workermi.h  -- working classes with MI', ' an abstract base class', ' pure virtual function', ' string equivs of voice types', ' multiple inheritance']
+****************************************************************************************************filename: pairs.cpp
+md5: 2ae3f14d48b74f41b3ab8d9d4bc882dd
+classname:
+
+function:
+[]
+include or import or require :
+[' <iostream>', ' <string>']
+notes:
+[' pairs.cpp -- define and use a Pair template']
+****************************************************************************************************filename: tv.h
+md5: 92944bdddbdcf6e406a03cc67a10de34
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: sales.h~
+md5: 178301f5691e13ad88c0a7a9ec5fea3c
+classname:
+['Sales', 'LabeledSales']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: tv.h~
+md5: 41b663d91bf52d7a4312342ceb20d47b
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: ConcreteStates.h
+md5: 1e308e08004c66b06b877b337f939d24
+classname:
+['ImpossibleException', 'ReadyState', 'RunningState', 'BlockedState']
+function:
+[{"function": "ReadyState", "params": ["Process *p", " string n"]}, {"function": "RunningState", "params": ["Process *p", " string n"]}, {"function": "BlockedState", "params": ["Process *p", " string n"]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}]
+include or import or require :
+[' <iostream>', ' <string>', ' "Process.h"']
+notes:
+[]
+****************************************************************************************************filename: vect2.cpp
+md5: 20cae87285f11cf16a490be973a3d00b
+classname:
+
+function:
+[{"function": "FillReview", "params": ["Review & rr"]}, {"function": "ShowReview", "params": ["const Review & rr"]}, {"function": "FillReview", "params": ["Review & rr"]}, {"function": "ShowReview", "params": ["const Review & rr"]}]
+include or import or require :
+[' <iostream>', ' <string>', ' <vector>']
+notes:
+[' vect2.cpp -- methods and iterators', ' copy constructor used', ' remove 2 items', ' insert 1 item']
+****************************************************************************************************filename: sales.h
+md5: ca476f6428584933bafb049bf4a847af
+classname:
+['Sales', 'LabeledSales']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: State.h
+md5: c2f10f509a1486f4221ac1680532ca75
+classname:
+['State']
+function:
+[{"function": "State", "params": ["string n"]}, {"function": "getName", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}]
+include or import or require :
+[' <string>']
+notes:
+[]
+****************************************************************************************************filename: tabtenn1.h
+md5: 9ba3a09c1cea120c0d3a190008238072
+classname:
+['class', 'class']
+function:
+[{"function": "Name", "params": [""]}, {"function": "HasTable", "params": [""]}, {"function": "ResetTable", "params": ["bool v"]}, {"function": "Rating", "params": [""]}, {"function": "ResetRating", "params": ["unsigned int r"]}]
+include or import or require :
+[]
+notes:
+[' tabtenn1.h  -- simple inheritance', ' simple base class', ' simple derived class']
+****************************************************************************************************filename: workermi.h
+md5: b91aecdc37a327ecfd3cc392e3efacd3
+classname:
+['Worker', 'Waiter', 'Singer', 'SingingWaiter']
+function:
+[{"function": "Worker", "params": [""]}, {"function": "Waiter", "params": [""]}, {"function": "Singer", "params": [""]}, {"function": "SingingWaiter", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}]
+include or import or require :
+[' <string>']
+notes:
+[' workermi.h  -- working classes with MI', ' an abstract base class', ' pure virtual function', ' string equivs of voice types', ' multiple inheritance']
+****************************************************************************************************filename: pairs.cpp
+md5: 2ae3f14d48b74f41b3ab8d9d4bc882dd
+classname:
+
+function:
+[]
+include or import or require :
+[' <iostream>', ' <string>']
+notes:
+[' pairs.cpp -- define and use a Pair template']
+****************************************************************************************************filename: tv.h
+md5: 92944bdddbdcf6e406a03cc67a10de34
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: sales.h~
+md5: 178301f5691e13ad88c0a7a9ec5fea3c
+classname:
+['Sales', 'LabeledSales']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: tv.h~
+md5: 41b663d91bf52d7a4312342ceb20d47b
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: menu1.c
+md5: 0771945a8bf2f7649812e7a8048aa798
+classname:
+
+function:
+[{"function": "getchoice", "params": ["char *greet", " char *choices[]"]}, {"function": "getchoice", "params": ["char *greet", " char *choices[]"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>']
+notes:
+['qdsavfsdvgs edas', 'erqwrwe']
+****************************************************************************************************filename: limits.c
+md5: a513e82c6c32516973bbc8b235143e51
+classname:
+
+function:
+[{"function": "work", "params": [""]}]
+include or import or require :
+[' <sys/types.h>', ' <sys/resource.h>', ' <sys/time.h>', ' <unistd.h>', ' <stdio.h>', ' <stdlib.h>', ' <math.h>']
+notes:
+['afsdg 2341 vfv ', 'werqfqwerf']
+****************************************************************************************************filename: atexit.c
+md5: 654817fc266d48dc374b4af564d89500
+classname:
+
+function:
+[{"function": "my_exit1", "params": ["void"]}, {"function": "my_exit2", "params": ["void"]}, {"function": "my_exit1", "params": ["void"]}, {"function": "my_exit2", "params": ["void"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>']
+notes:
+['dsaf gnfasdac', '23fsdd32e']
+****************************************************************************************************filename: 16.5.c
+md5: 1a625c6d785ca3e44d057d483adc8d29
+classname:
+
+function:
+[{"function": "initserver", "params": ["int type", " const struct sockaddr *addr", " socklen_t alen", " int qlen"]}, {"function": "server", "params": ["int sockfd"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <unistd.h>', ' <netdb.h>', ' <errno.h>', ' <syslog.h>', ' <sys/socket.h>']
+notes:
+['sdfb vvnhmjhmhffdasf', 'adfsdsd', 'asdfg', '123242', '3214124']
+****************************************************************************************************filename: 16.4.c
+md5: 8a9a338cf43145bd5a072ee02a3eae80
+classname:
+
+function:
+[{"function": "connect_retry", "params": ["int sockfd", " const struct sockaddr *addr", " socklen_t alen"]}, {"function": "print_uptime", "params": ["int sockfd"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <unistd.h>', ' <netdb.h>', ' <errno.h>', ' <sys/socket.h>']
+notes:
+[]
+****************************************************************************************************filename: 10.22.c
+md5: e28494cb0ae1f7456c14a970853517bd
+classname:
+
+function:
+[{"function": "sig_tstp", "params": ["int"]}, {"function": "sig_tstp", "params": ["int signo"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <signal.h>', ' <unistd.h>']
+notes:
+['sdadaw asds ', 'eqwr wqde a']
+****************************************************************************************************filename: 10.3.c
+md5: 643ebcb5dd744f8577e41515447a6971
+classname:
+
+function:
+[{"function": "sig_cld", "params": ["int"]}, {"function": "sig_cld", "params": ["int signo"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <signal.h>', ' <sys/wait.h>']
+notes:
+['dasfggdf', 'fsdg', 'asdf']
+****************************************************************************************************filename: 10.1.c
+md5: 4e7caac23698e07b1a022e18e4894f9c
+classname:
+
+function:
+[{"function": "sig_usr", "params": ["int"]}, {"function": "sig_usr", "params": ["int signo"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <signal.h>']
+notes:
+['10.1sdfghjn zsdfcvsdf', 'dagfd ', 'fsdb', 'wergtrd']
+****************************************************************************************************filename: 7.2.1.c
+md5: a230146c277aa34f7a2c9e17bc1a9abb
+classname:
+
+function:
+[{"function": "gcd", "params": ["int m", " int n"]}, {"function": "gcd", "params": ["int m", " int n"]}]
+include or import or require :
+[' <stdio.h>']
+notes:
+['7.2.1 asddfdfsdfsadaad  ', '1', '2', '3']
+****************************************************************************************************filename: 11.6.c
+md5: 68aa7f7bd0b15ef04ee7d247fca33382
+classname:
+
+function:
+[{"function": "compare_integers", "params": ["void const *a", " void const *b"]}]
+include or import or require :
+[' <stdlib.h>', ' <stdio.h>']
+notes:
+['dsafas wads a', 'weqerqwrfwe']
+****************************************************************************************************filename: ConcreteStates.h
+md5: 1e308e08004c66b06b877b337f939d24
+classname:
+['ImpossibleException', 'ReadyState', 'RunningState', 'BlockedState']
+function:
+[{"function": "ReadyState", "params": ["Process *p", " string n"]}, {"function": "RunningState", "params": ["Process *p", " string n"]}, {"function": "BlockedState", "params": ["Process *p", " string n"]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}]
+include or import or require :
+[' <iostream>', ' <string>', ' "Process.h"']
+notes:
+[]
+****************************************************************************************************filename: vect2.cpp
+md5: 20cae87285f11cf16a490be973a3d00b
+classname:
+
+function:
+[{"function": "FillReview", "params": ["Review & rr"]}, {"function": "ShowReview", "params": ["const Review & rr"]}, {"function": "FillReview", "params": ["Review & rr"]}, {"function": "ShowReview", "params": ["const Review & rr"]}]
+include or import or require :
+[' <iostream>', ' <string>', ' <vector>']
+notes:
+[' vect2.cpp -- methods and iterators', ' copy constructor used', ' remove 2 items', ' insert 1 item']
+****************************************************************************************************filename: sales.h
+md5: ca476f6428584933bafb049bf4a847af
+classname:
+['Sales', 'bad_index', 'LabeledSales', 'nbad_index']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: State.h
+md5: c2f10f509a1486f4221ac1680532ca75
+classname:
+['State']
+function:
+[{"function": "State", "params": ["string n"]}, {"function": "getName", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}]
+include or import or require :
+[' <string>']
+notes:
+[]
+****************************************************************************************************filename: tabtenn1.h
+md5: 9ba3a09c1cea120c0d3a190008238072
+classname:
+['class', 'class']
+function:
+[{"function": "Name", "params": [""]}, {"function": "HasTable", "params": [""]}, {"function": "ResetTable", "params": ["bool v"]}, {"function": "Rating", "params": [""]}, {"function": "ResetRating", "params": ["unsigned int r"]}]
+include or import or require :
+[]
+notes:
+[' tabtenn1.h  -- simple inheritance', ' simple base class', ' simple derived class']
+****************************************************************************************************filename: workermi.h
+md5: b91aecdc37a327ecfd3cc392e3efacd3
+classname:
+['Worker', 'Waiter', 'Singer', 'SingingWaiter']
+function:
+[{"function": "Worker", "params": [""]}, {"function": "Waiter", "params": [""]}, {"function": "Singer", "params": [""]}, {"function": "SingingWaiter", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}]
+include or import or require :
+[' <string>']
+notes:
+[' workermi.h  -- working classes with MI', ' an abstract base class', ' pure virtual function', ' string equivs of voice types', ' multiple inheritance']
+****************************************************************************************************filename: pairs.cpp
+md5: 2ae3f14d48b74f41b3ab8d9d4bc882dd
+classname:
+
+function:
+[]
+include or import or require :
+[' <iostream>', ' <string>']
+notes:
+[' pairs.cpp -- define and use a Pair template']
+****************************************************************************************************filename: tv.h
+md5: 92944bdddbdcf6e406a03cc67a10de34
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: sales.h~
+md5: 178301f5691e13ad88c0a7a9ec5fea3c
+classname:
+['Sales', 'bad_index', 'LabeledSales', 'nbad_index']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: tv.h~
+md5: 41b663d91bf52d7a4312342ceb20d47b
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: StringProcessor.java
+md5: 04e8e34925864e85587eca1378f2fa7c
+classname:
+['StringProcessor', 'Upcase', 'Downcase', 'Splitter']
+function:
+[{"function": "name", "params": [""]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}]
+include or import or require :
+[' java.util.*;']
+notes:
+[': interfaces/interfaceprocessor/StringProcessor.java', ' Covariant return', " Output:Using Processor UpcaseIF SHE WEIGHS THE SAME AS A DUCK, SHE'S MADE OF WOODUsing Processor Downcaseif she weighs the same as a duck, she's made of woodUsing Processor Splitter[If, she, weighs, the, same, as, a, duck,, she's, made, of, wood]", ':~']
+****************************************************************************************************filename: Apply.java
+md5: 5c28c2afb6eb2e2191e2ad1571420c91
+classname:
+['Processor', 'Upcase', 'Downcase', 'Splitter', 'Apply']
+function:
+[{"function": "name", "params": [""]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Processor p", " Object s"]}]
+include or import or require :
+[' java.util.*;', ' static net.mindview.util.Print.*;']
+notes:
+[': interfaces/classprocessor/Apply.java', ' Covariant return', ' The split() argument divides a String into pieces:', ' Output:Using Processor UpcaseDISAGREEMENT WITH BELIEFS IS BY DEFINITION INCORRECTUsing Processor Downcasedisagreement with beliefs is by definition incorrectUsing Processor Splitter[Disagreement, with, beliefs, is, by, definition, incorrect]', ':~']
+****************************************************************************************************filename: Orc.java
+md5: 5a2b6e66f40485405b10e5ebf15e0f7e
+classname:
+['Villain', 'Orc']
+function:
+[{"function": "Villain", "params": ["String name"]}, {"function": "Orc", "params": ["String name", " int orcNumber"]}, {"function": "set", "params": ["String nm"]}, {"function": "toString", "params": [""]}, {"function": "change", "params": ["String name", " int orcNumber"]}, {"function": "toString", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': reusing/Orc.java', ' The protected keyword.', " Available because it's protected", " Output:Orc 12: I'm a Villain and my name is LimburgerOrc 19: I'm a Villain and my name is Bob", ':~']
+****************************************************************************************************filename: TypesForSets.java
+md5: 5eabb888dc04cfb337ce90d39d09ad16
+classname:
+['SetType', 'HashType', 'TypesForSets']
+function:
+[{"function": "SetType", "params": ["int n"]}, {"function": "HashType", "params": ["int n"]}, {"function": "equals", "params": ["Object o"]}, {"function": "toString", "params": [""]}, {"function": "hashCode", "params": [""]}, {"function": "TreeType", "params": ["int n"]}, {"function": "compareTo", "params": ["TreeType arg"]}, {"function": "test", "params": ["Set<T> set", " Class<T> type"]}]
+include or import or require :
+[' java.util.*;']
+notes:
+[': containers/TypesForSets.java', ' Methods necessary to put your own type in a Set.', ' Try to add duplicates', " Things that don't work:", ' Output: (Sample)[2, 4, 9, 8, 6, 1, 3, 7, 5, 0][0, 1, 2, 3, 4, 5, 6, 7, 8, 9][9, 8, 7, 6, 5, 4, 3, 2, 1, 0][9, 9, 7, 5, 1, 2, 6, 3, 0, 7, 2, 4, 4, 7, 9, 1, 3, 6, 2, 4, 3, 0, 5, 0, 8, 8, 8, 6, 5, 1][0, 5, 5, 6, 5, 0, 3, 1, 9, 8, 4, 2, 3, 9, 7, 3, 4, 4, 0, 7, 1, 9, 6, 2, 1, 8, 2, 8, 6, 7][0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9][0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]java.lang.ClassCastException: SetType cannot be cast to java.lang.Comparablejava.lang.ClassCastException: HashType cannot be cast to java.lang.Comparable', ':~']
+****************************************************************************************************filename: Frog.java~
+md5: fe762bf666db7b9e3d2a4cbda29fa0cb
+classname:
+['Characteristic', 'Description', 'LivingCreature', 'Animal', 'Amphibian', 'Frog']
+function:
+[{"function": "Characteristic", "params": ["String s"]}, {"function": "Description", "params": ["String s"]}, {"function": "LivingCreature", "params": [""]}, {"function": "Animal", "params": [""]}, {"function": "Amphibian", "params": [""]}, {"function": "Frog", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': polymorphism/Frog.java', ' Cleanup and inheritance.', ' Output:Creating Characteristic is aliveCreating Description Basic Living CreatureLivingCreature()Creating Characteristic has heartCreating Description Animal not VegetableAnimal()Creating Characteristic can live in waterCreating Description Both water and landAmphibian()Creating Characteristic CroaksCreating Description Eats BugsFrog()Bye!Frog disposedisposing Description Eats Bugsdisposing Characteristic CroaksAmphibian disposedisposing Description Both water and landdisposing Characteristic can live in waterAnimal disposedisposing Description Animal not Vegetabledisposing Characteristic has heartLivingCreature disposedisposing Description Basic Living Creaturedisposing Characteristic is alive', ':~']
+****************************************************************************************************filename: Frog.java
+md5: e4c4478d96189795a436344a92f25017
+classname:
+['Characteristic', 'Description', 'LivingCreature', 'Animal', 'Amphibian', 'Frog']
+function:
+[{"function": "Characteristic", "params": ["String s"]}, {"function": "Description", "params": ["String s"]}, {"function": "Animal", "params": [""]}, {"function": "Amphibian", "params": [""]}, {"function": "Frog", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': polymorphism/Frog.java', ' Cleanup and inheritance.', ' Output:Creating Characteristic is aliveCreating Description Basic Living CreatureLivingCreature()Creating Characteristic has heartCreating Description Animal not VegetableAnimal()Creating Characteristic can live in waterCreating Description Both water and landAmphibian()Creating Characteristic CroaksCreating Description Eats BugsFrog()Bye!Frog disposedisposing Description Eats Bugsdisposing Characteristic CroaksAmphibian disposedisposing Description Both water and landdisposing Characteristic can live in waterAnimal disposedisposing Description Animal not Vegetabledisposing Characteristic has heartLivingCreature disposedisposing Description Basic Living Creaturedisposing Characteristic is alive', ':~']
+****************************************************************************************************filename: TextFields.java
+md5: 12d87b7f6770500e7edec60614a8bc07
+classname:
+['TextFields', 'T1', 'T1A', 'B1', 'B2', 'UpperCaseDocument']
+function:
+[{"function": "TextFields", "params": [""]}, {"function": "UpperCaseDocument", "params": [""]}, {"function": "changedUpdate", "params": ["DocumentEvent e"]}, {"function": "insertUpdate", "params": ["DocumentEvent e"]}, {"function": "removeUpdate", "params": ["DocumentEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "setUpperCase", "params": ["boolean flag"]}, {"function": "insertString", "params": ["int offset", " String str", " AttributeSet attSet"]}]
+include or import or require :
+[' javax.swing.*;', ' javax.swing.event.*;', ' javax.swing.text.*;', ' java.awt.*;', ' java.awt.event.*;', ' static net.mindview.util.SwingConsole.*;']
+notes:
+[': gui/TextFields.java', ' Text fields and Java events.', '/:~']
+****************************************************************************************************filename: Menus.java
+md5: cd68631a927f1033bcb6042fdb576dd4
+classname:
+['Menus', 'BL', 'ML', 'FL', 'FooL', 'BarL', 'BazL', 'CMIL']
+function:
+[{"function": "Menus", "params": [""]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "itemStateChanged", "params": ["ItemEvent e"]}]
+include or import or require :
+[' javax.swing.*;', ' java.awt.*;', ' java.awt.event.*;', ' static net.mindview.util.SwingConsole.*;']
+notes:
+[': gui/Menus.java', ' Submenus, check box menu items, swapping menus,', ' mnemonics (shortcuts) and action commands.', ' Alternative approach:', ' A second menu bar to swap to:', ' Adding a menu shortcut (mnemonic) is very', ' simple, but only JMenuItems can have them', ' in their constructors:', ' No shortcut:', ' Refresh the frame', ' Alternatively, you can create a different', ' class for each different MenuItem. Then you', " don't have to figure out which one it is:", ' Add separators at intervals:', ' Set up the system for swapping menus:', '/:~']
+****************************************************************************************************filename: StringProcessor.java
+md5: 04e8e34925864e85587eca1378f2fa7c
+classname:
+['StringProcessor', 'Upcase', 'Downcase', 'Splitter']
+function:
+[{"function": "name", "params": [""]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}]
+include or import or require :
+[' java.util.*;']
+notes:
+[': interfaces/interfaceprocessor/StringProcessor.java', ' Covariant return', " Output:Using Processor UpcaseIF SHE WEIGHS THE SAME AS A DUCK, SHE'S MADE OF WOODUsing Processor Downcaseif she weighs the same as a duck, she's made of woodUsing Processor Splitter[If, she, weighs, the, same, as, a, duck,, she's, made, of, wood]", ':~']
+****************************************************************************************************filename: Apply.java
+md5: 5c28c2afb6eb2e2191e2ad1571420c91
+classname:
+['Processor', 'Upcase', 'Downcase', 'Splitter', 'Apply']
+function:
+[{"function": "name", "params": [""]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Processor p", " Object s"]}]
+include or import or require :
+[' java.util.*;', ' static net.mindview.util.Print.*;']
+notes:
+[': interfaces/classprocessor/Apply.java', ' Covariant return', ' The split() argument divides a String into pieces:', ' Output:Using Processor UpcaseDISAGREEMENT WITH BELIEFS IS BY DEFINITION INCORRECTUsing Processor Downcasedisagreement with beliefs is by definition incorrectUsing Processor Splitter[Disagreement, with, beliefs, is, by, definition, incorrect]', ':~']
+****************************************************************************************************filename: Orc.java
+md5: 5a2b6e66f40485405b10e5ebf15e0f7e
+classname:
+['Villain', 'Orc']
+function:
+[{"function": "Villain", "params": ["String name"]}, {"function": "Orc", "params": ["String name", " int orcNumber"]}, {"function": "set", "params": ["String nm"]}, {"function": "toString", "params": [""]}, {"function": "change", "params": ["String name", " int orcNumber"]}, {"function": "toString", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': reusing/Orc.java', ' The protected keyword.', " Available because it's protected", " Output:Orc 12: I'm a Villain and my name is LimburgerOrc 19: I'm a Villain and my name is Bob", ':~']
+****************************************************************************************************filename: TypesForSets.java
+md5: 5eabb888dc04cfb337ce90d39d09ad16
+classname:
+['SetType', 'HashType', 'TypesForSets']
+function:
+[{"function": "SetType", "params": ["int n"]}, {"function": "HashType", "params": ["int n"]}, {"function": "equals", "params": ["Object o"]}, {"function": "toString", "params": [""]}, {"function": "hashCode", "params": [""]}, {"function": "TreeType", "params": ["int n"]}, {"function": "compareTo", "params": ["TreeType arg"]}, {"function": "test", "params": ["Set<T> set", " Class<T> type"]}]
+include or import or require :
+[' java.util.*;']
+notes:
+[': containers/TypesForSets.java', ' Methods necessary to put your own type in a Set.', ' Try to add duplicates', " Things that don't work:", ' Output: (Sample)[2, 4, 9, 8, 6, 1, 3, 7, 5, 0][0, 1, 2, 3, 4, 5, 6, 7, 8, 9][9, 8, 7, 6, 5, 4, 3, 2, 1, 0][9, 9, 7, 5, 1, 2, 6, 3, 0, 7, 2, 4, 4, 7, 9, 1, 3, 6, 2, 4, 3, 0, 5, 0, 8, 8, 8, 6, 5, 1][0, 5, 5, 6, 5, 0, 3, 1, 9, 8, 4, 2, 3, 9, 7, 3, 4, 4, 0, 7, 1, 9, 6, 2, 1, 8, 2, 8, 6, 7][0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9][0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]java.lang.ClassCastException: SetType cannot be cast to java.lang.Comparablejava.lang.ClassCastException: HashType cannot be cast to java.lang.Comparable', ':~']
+****************************************************************************************************filename: Frog.java~
+md5: fe762bf666db7b9e3d2a4cbda29fa0cb
+classname:
+['Characteristic', 'Description', 'LivingCreature', 'Animal', 'Amphibian', 'Frog']
+function:
+[{"function": "Characteristic", "params": ["String s"]}, {"function": "Description", "params": ["String s"]}, {"function": "LivingCreature", "params": [""]}, {"function": "Animal", "params": [""]}, {"function": "Amphibian", "params": [""]}, {"function": "Frog", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': polymorphism/Frog.java', ' Cleanup and inheritance.', ' Output:Creating Characteristic is aliveCreating Description Basic Living CreatureLivingCreature()Creating Characteristic has heartCreating Description Animal not VegetableAnimal()Creating Characteristic can live in waterCreating Description Both water and landAmphibian()Creating Characteristic CroaksCreating Description Eats BugsFrog()Bye!Frog disposedisposing Description Eats Bugsdisposing Characteristic CroaksAmphibian disposedisposing Description Both water and landdisposing Characteristic can live in waterAnimal disposedisposing Description Animal not Vegetabledisposing Characteristic has heartLivingCreature disposedisposing Description Basic Living Creaturedisposing Characteristic is alive', ':~']
+****************************************************************************************************filename: Frog.java
+md5: e4c4478d96189795a436344a92f25017
+classname:
+['Characteristic', 'Description', 'LivingCreature', 'Animal', 'Amphibian', 'Frog']
+function:
+[{"function": "Characteristic", "params": ["String s"]}, {"function": "Description", "params": ["String s"]}, {"function": "Animal", "params": [""]}, {"function": "Amphibian", "params": [""]}, {"function": "Frog", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': polymorphism/Frog.java', ' Cleanup and inheritance.', ' Output:Creating Characteristic is aliveCreating Description Basic Living CreatureLivingCreature()Creating Characteristic has heartCreating Description Animal not VegetableAnimal()Creating Characteristic can live in waterCreating Description Both water and landAmphibian()Creating Characteristic CroaksCreating Description Eats BugsFrog()Bye!Frog disposedisposing Description Eats Bugsdisposing Characteristic CroaksAmphibian disposedisposing Description Both water and landdisposing Characteristic can live in waterAnimal disposedisposing Description Animal not Vegetabledisposing Characteristic has heartLivingCreature disposedisposing Description Basic Living Creaturedisposing Characteristic is alive', ':~']
+****************************************************************************************************filename: TextFields.java
+md5: 12d87b7f6770500e7edec60614a8bc07
+classname:
+['TextFields', 'T1', 'T1A', 'B1', 'B2', 'UpperCaseDocument']
+function:
+[{"function": "TextFields", "params": [""]}, {"function": "UpperCaseDocument", "params": [""]}, {"function": "changedUpdate", "params": ["DocumentEvent e"]}, {"function": "insertUpdate", "params": ["DocumentEvent e"]}, {"function": "removeUpdate", "params": ["DocumentEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "setUpperCase", "params": ["boolean flag"]}, {"function": "insertString", "params": ["int offset", " String str", " AttributeSet attSet"]}]
+include or import or require :
+[' javax.swing.*;', ' javax.swing.event.*;', ' javax.swing.text.*;', ' java.awt.*;', ' java.awt.event.*;', ' static net.mindview.util.SwingConsole.*;']
+notes:
+[': gui/TextFields.java', ' Text fields and Java events.', '/:~']
+****************************************************************************************************filename: Menus.java
+md5: cd68631a927f1033bcb6042fdb576dd4
+classname:
+['Menus', 'BL', 'ML', 'FL', 'FooL', 'BarL', 'BazL', 'CMIL']
+function:
+[{"function": "Menus", "params": [""]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "itemStateChanged", "params": ["ItemEvent e"]}]
+include or import or require :
+[' javax.swing.*;', ' java.awt.*;', ' java.awt.event.*;', ' static net.mindview.util.SwingConsole.*;']
+notes:
+[': gui/Menus.java', ' Submenus, check box menu items, swapping menus,', ' mnemonics (shortcuts) and action commands.', ' Alternative approach:', ' A second menu bar to swap to:', ' Adding a menu shortcut (mnemonic) is very', ' simple, but only JMenuItems can have them', ' in their constructors:', ' No shortcut:', ' Refresh the frame', ' Alternatively, you can create a different', ' class for each different MenuItem. Then you', " don't have to figure out which one it is:", ' Add separators at intervals:', ' Set up the system for swapping menus:', '/:~']
+****************************************************************************************************filename: StringProcessor.java
+md5: 04e8e34925864e85587eca1378f2fa7c
+classname:
+['StringProcessor', 'Upcase', 'Downcase', 'Splitter']
+function:
+[{"function": "name", "params": [""]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}]
+include or import or require :
+[' java.util.*;']
+notes:
+[': interfaces/interfaceprocessor/StringProcessor.java', ' Covariant return', " Output:Using Processor UpcaseIF SHE WEIGHS THE SAME AS A DUCK, SHE'S MADE OF WOODUsing Processor Downcaseif she weighs the same as a duck, she's made of woodUsing Processor Splitter[If, she, weighs, the, same, as, a, duck,, she's, made, of, wood]", ':~']
+****************************************************************************************************filename: Apply.java
+md5: 5c28c2afb6eb2e2191e2ad1571420c91
+classname:
+['Processor', 'Upcase', 'Downcase', 'Splitter', 'Apply']
+function:
+[{"function": "name", "params": [""]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Processor p", " Object s"]}]
+include or import or require :
+[' java.util.*;', ' static net.mindview.util.Print.*;']
+notes:
+[': interfaces/classprocessor/Apply.java', ' Covariant return', ' The split() argument divides a String into pieces:', ' Output:Using Processor UpcaseDISAGREEMENT WITH BELIEFS IS BY DEFINITION INCORRECTUsing Processor Downcasedisagreement with beliefs is by definition incorrectUsing Processor Splitter[Disagreement, with, beliefs, is, by, definition, incorrect]', ':~']
+****************************************************************************************************filename: Orc.java
+md5: 5a2b6e66f40485405b10e5ebf15e0f7e
+classname:
+['Villain', 'Orc']
+function:
+[{"function": "Villain", "params": ["String name"]}, {"function": "Orc", "params": ["String name", " int orcNumber"]}, {"function": "set", "params": ["String nm"]}, {"function": "toString", "params": [""]}, {"function": "change", "params": ["String name", " int orcNumber"]}, {"function": "toString", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': reusing/Orc.java', ' The protected keyword.', " Available because it's protected", " Output:Orc 12: I'm a Villain and my name is LimburgerOrc 19: I'm a Villain and my name is Bob", ':~']
+****************************************************************************************************filename: TypesForSets.java
+md5: 5eabb888dc04cfb337ce90d39d09ad16
+classname:
+['SetType', 'HashType', 'TypesForSets']
+function:
+[{"function": "SetType", "params": ["int n"]}, {"function": "HashType", "params": ["int n"]}, {"function": "equals", "params": ["Object o"]}, {"function": "toString", "params": [""]}, {"function": "hashCode", "params": [""]}, {"function": "TreeType", "params": ["int n"]}, {"function": "compareTo", "params": ["TreeType arg"]}, {"function": "test", "params": ["Set<T> set", " Class<T> type"]}]
+include or import or require :
+[' java.util.*;']
+notes:
+[': containers/TypesForSets.java', ' Methods necessary to put your own type in a Set.', ' Try to add duplicates', " Things that don't work:", ' Output: (Sample)[2, 4, 9, 8, 6, 1, 3, 7, 5, 0][0, 1, 2, 3, 4, 5, 6, 7, 8, 9][9, 8, 7, 6, 5, 4, 3, 2, 1, 0][9, 9, 7, 5, 1, 2, 6, 3, 0, 7, 2, 4, 4, 7, 9, 1, 3, 6, 2, 4, 3, 0, 5, 0, 8, 8, 8, 6, 5, 1][0, 5, 5, 6, 5, 0, 3, 1, 9, 8, 4, 2, 3, 9, 7, 3, 4, 4, 0, 7, 1, 9, 6, 2, 1, 8, 2, 8, 6, 7][0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9][0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]java.lang.ClassCastException: SetType cannot be cast to java.lang.Comparablejava.lang.ClassCastException: HashType cannot be cast to java.lang.Comparable', ':~']
+****************************************************************************************************filename: Frog.java~
+md5: fe762bf666db7b9e3d2a4cbda29fa0cb
+classname:
+['Characteristic', 'Description', 'LivingCreature', 'Animal', 'Amphibian', 'Frog']
+function:
+[{"function": "Characteristic", "params": ["String s"]}, {"function": "Description", "params": ["String s"]}, {"function": "LivingCreature", "params": [""]}, {"function": "Animal", "params": [""]}, {"function": "Amphibian", "params": [""]}, {"function": "Frog", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': polymorphism/Frog.java', ' Cleanup and inheritance.', ' Output:Creating Characteristic is aliveCreating Description Basic Living CreatureLivingCreature()Creating Characteristic has heartCreating Description Animal not VegetableAnimal()Creating Characteristic can live in waterCreating Description Both water and landAmphibian()Creating Characteristic CroaksCreating Description Eats BugsFrog()Bye!Frog disposedisposing Description Eats Bugsdisposing Characteristic CroaksAmphibian disposedisposing Description Both water and landdisposing Characteristic can live in waterAnimal disposedisposing Description Animal not Vegetabledisposing Characteristic has heartLivingCreature disposedisposing Description Basic Living Creaturedisposing Characteristic is alive', ':~']
+****************************************************************************************************filename: Frog.java
+md5: e4c4478d96189795a436344a92f25017
+classname:
+['Characteristic', 'Description', 'LivingCreature', 'Animal', 'Amphibian', 'Frog']
+function:
+[{"function": "Characteristic", "params": ["String s"]}, {"function": "Description", "params": ["String s"]}, {"function": "Animal", "params": [""]}, {"function": "Amphibian", "params": [""]}, {"function": "Frog", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': polymorphism/Frog.java', ' Cleanup and inheritance.', ' Output:Creating Characteristic is aliveCreating Description Basic Living CreatureLivingCreature()Creating Characteristic has heartCreating Description Animal not VegetableAnimal()Creating Characteristic can live in waterCreating Description Both water and landAmphibian()Creating Characteristic CroaksCreating Description Eats BugsFrog()Bye!Frog disposedisposing Description Eats Bugsdisposing Characteristic CroaksAmphibian disposedisposing Description Both water and landdisposing Characteristic can live in waterAnimal disposedisposing Description Animal not Vegetabledisposing Characteristic has heartLivingCreature disposedisposing Description Basic Living Creaturedisposing Characteristic is alive', ':~']
+****************************************************************************************************filename: TextFields.java
+md5: 12d87b7f6770500e7edec60614a8bc07
+classname:
+['TextFields', 'T1', 'T1A', 'B1', 'B2', 'UpperCaseDocument']
+function:
+[{"function": "TextFields", "params": [""]}, {"function": "UpperCaseDocument", "params": [""]}, {"function": "changedUpdate", "params": ["DocumentEvent e"]}, {"function": "insertUpdate", "params": ["DocumentEvent e"]}, {"function": "removeUpdate", "params": ["DocumentEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "setUpperCase", "params": ["boolean flag"]}, {"function": "insertString", "params": ["int offset", " String str", " AttributeSet attSet"]}]
+include or import or require :
+[' javax.swing.*;', ' javax.swing.event.*;', ' javax.swing.text.*;', ' java.awt.*;', ' java.awt.event.*;', ' static net.mindview.util.SwingConsole.*;']
+notes:
+[': gui/TextFields.java', ' Text fields and Java events.', '/:~']
+****************************************************************************************************filename: Menus.java
+md5: cd68631a927f1033bcb6042fdb576dd4
+classname:
+['Menus', 'BL', 'ML', 'FL', 'FooL', 'BarL', 'BazL', 'CMIL']
+function:
+[{"function": "Menus", "params": [""]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "itemStateChanged", "params": ["ItemEvent e"]}]
+include or import or require :
+[' javax.swing.*;', ' java.awt.*;', ' java.awt.event.*;', ' static net.mindview.util.SwingConsole.*;']
+notes:
+[': gui/Menus.java', ' Submenus, check box menu items, swapping menus,', ' mnemonics (shortcuts) and action commands.', ' Alternative approach:', ' A second menu bar to swap to:', ' Adding a menu shortcut (mnemonic) is very', ' simple, but only JMenuItems can have them', ' in their constructors:', ' No shortcut:', ' Refresh the frame', ' Alternatively, you can create a different', ' class for each different MenuItem. Then you', " don't have to figure out which one it is:", ' Add separators at intervals:', ' Set up the system for swapping menus:', '/:~']
+****************************************************************************************************filename: StringProcessor.java
+md5: 04e8e34925864e85587eca1378f2fa7c
+classname:
+['StringProcessor', 'Upcase', 'Downcase', 'Splitter']
+function:
+[{"function": "name", "params": [""]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}]
+include or import or require :
+[' java.util.*;']
+notes:
+[': interfaces/interfaceprocessor/StringProcessor.java', ' Covariant return', " Output:Using Processor UpcaseIF SHE WEIGHS THE SAME AS A DUCK, SHE'S MADE OF WOODUsing Processor Downcaseif she weighs the same as a duck, she's made of woodUsing Processor Splitter[If, she, weighs, the, same, as, a, duck,, she's, made, of, wood]", ':~']
+****************************************************************************************************filename: 16.4.c
+md5: 8a9a338cf43145bd5a072ee02a3eae80
+classname:
+
+function:
+[{"function": "connect_retry", "params": ["int sockfd", " const struct sockaddr *addr", " socklen_t alen"]}, {"function": "print_uptime", "params": ["int sockfd"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <unistd.h>', ' <netdb.h>', ' <errno.h>', ' <sys/socket.h>']
+notes:
+[]
+****************************************************************************************************filename: sales.h
+md5: ca476f6428584933bafb049bf4a847af
+classname:
+['Sales', 'bad_index', 'LabeledSales', 'nbad_index']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: 10.22.c
+md5: e28494cb0ae1f7456c14a970853517bd
+classname:
+
+function:
+[{"function": "sig_tstp", "params": ["int"]}, {"function": "sig_tstp", "params": ["int signo"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <signal.h>', ' <unistd.h>']
+notes:
+['sdadaw asds ', 'eqwr wqde a']
+****************************************************************************************************filename: mails.php
+md5: bc08e561f9cc6693cd2c90f7114d9949
+classname:
+[]
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[]
+notes:
+[' note we can get more detailed information by using from and to', ' rather than fromaddress and toaddress, but these are easier', ' does this user have an account with this id?', ' get an array of the account ids that belong to this user', ' get the number of accounts that belong to this user', "delete one of this user's accounts from the DB"]
+****************************************************************************************************filename: iterator.php
+md5: ddb0e8015899049f7d895daaad96f1ba
+classname:
+['ObjectIterator', 'Object']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[]
+notes:
+['deqwqew312\t', 'vsdfvs', 'eqwfr', 'weqw']
+****************************************************************************************************filename: pairs.cpp
+md5: 2ae3f14d48b74f41b3ab8d9d4bc882dd
+classname:
+
+function:
+[]
+include or import or require :
+[' <iostream>', ' <string>']
+notes:
+[' pairs.cpp -- define and use a Pair template']
+****************************************************************************************************filename: Frog.java
+md5: e4c4478d96189795a436344a92f25017
+classname:
+['Characteristic', 'Description', 'LivingCreature', 'Animal', 'Amphibian', 'Frog']
+function:
+[{"function": "Characteristic", "params": ["String s"]}, {"function": "Description", "params": ["String s"]}, {"function": "Animal", "params": [""]}, {"function": "Amphibian", "params": [""]}, {"function": "Frog", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': polymorphism/Frog.java', ' Cleanup and inheritance.', ' Output:Creating Characteristic is aliveCreating Description Basic Living CreatureLivingCreature()Creating Characteristic has heartCreating Description Animal not VegetableAnimal()Creating Characteristic can live in waterCreating Description Both water and landAmphibian()Creating Characteristic CroaksCreating Description Eats BugsFrog()Bye!Frog disposedisposing Description Eats Bugsdisposing Characteristic CroaksAmphibian disposedisposing Description Both water and landdisposing Characteristic can live in waterAnimal disposedisposing Description Animal not Vegetabledisposing Characteristic has heartLivingCreature disposedisposing Description Basic Living Creaturedisposing Characteristic is alive', ':~']
+****************************************************************************************************filename: tv.h
+md5: 92944bdddbdcf6e406a03cc67a10de34
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: StringProcessor.java
+md5: 04e8e34925864e85587eca1378f2fa7c
+classname:
+['StringProcessor', 'Upcase', 'Downcase', 'Splitter']
+function:
+[{"function": "name", "params": [""]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}]
+include or import or require :
+[' java.util.*;']
+notes:
+[': interfaces/interfaceprocessor/StringProcessor.java', ' Covariant return', " Output:Using Processor UpcaseIF SHE WEIGHS THE SAME AS A DUCK, SHE'S MADE OF WOODUsing Processor Downcaseif she weighs the same as a duck, she's made of woodUsing Processor Splitter[If, she, weighs, the, same, as, a, duck,, she's, made, of, wood]", ':~']
+****************************************************************************************************filename: 16.4.c
+md5: 8a9a338cf43145bd5a072ee02a3eae80
+classname:
+
+function:
+[{"function": "connect_retry", "params": ["int sockfd", " const struct sockaddr *addr", " socklen_t alen"]}, {"function": "print_uptime", "params": ["int sockfd"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <unistd.h>', ' <netdb.h>', ' <errno.h>', ' <sys/socket.h>']
+notes:
+[]
+****************************************************************************************************filename: sales.h
+md5: ca476f6428584933bafb049bf4a847af
+classname:
+['Sales', 'bad_index', 'LabeledSales', 'nbad_index']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: 10.22.c
+md5: e28494cb0ae1f7456c14a970853517bd
+classname:
+
+function:
+[{"function": "sig_tstp", "params": ["int"]}, {"function": "sig_tstp", "params": ["int signo"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <signal.h>', ' <unistd.h>']
+notes:
+['sdadaw asds ', 'eqwr wqde a']
+****************************************************************************************************filename: mails.php
+md5: bc08e561f9cc6693cd2c90f7114d9949
+classname:
+[]
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[]
+notes:
+[' note we can get more detailed information by using from and to', ' rather than fromaddress and toaddress, but these are easier', ' does this user have an account with this id?', ' get an array of the account ids that belong to this user', ' get the number of accounts that belong to this user', "delete one of this user's accounts from the DB"]
+****************************************************************************************************filename: iterator.php
+md5: ddb0e8015899049f7d895daaad96f1ba
+classname:
+['ObjectIterator', 'Object']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[]
+notes:
+['deqwqew312\t', 'vsdfvs', 'eqwfr', 'weqw']
+****************************************************************************************************filename: pairs.cpp
+md5: 2ae3f14d48b74f41b3ab8d9d4bc882dd
+classname:
+
+function:
+[]
+include or import or require :
+[' <iostream>', ' <string>']
+notes:
+[' pairs.cpp -- define and use a Pair template']
+****************************************************************************************************filename: Frog.java
+md5: e4c4478d96189795a436344a92f25017
+classname:
+['Characteristic', 'Description', 'LivingCreature', 'Animal', 'Amphibian', 'Frog']
+function:
+[{"function": "Characteristic", "params": ["String s"]}, {"function": "Description", "params": ["String s"]}, {"function": "Animal", "params": [""]}, {"function": "Amphibian", "params": [""]}, {"function": "Frog", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': polymorphism/Frog.java', ' Cleanup and inheritance.', ' Output:Creating Characteristic is aliveCreating Description Basic Living CreatureLivingCreature()Creating Characteristic has heartCreating Description Animal not VegetableAnimal()Creating Characteristic can live in waterCreating Description Both water and landAmphibian()Creating Characteristic CroaksCreating Description Eats BugsFrog()Bye!Frog disposedisposing Description Eats Bugsdisposing Characteristic CroaksAmphibian disposedisposing Description Both water and landdisposing Characteristic can live in waterAnimal disposedisposing Description Animal not Vegetabledisposing Characteristic has heartLivingCreature disposedisposing Description Basic Living Creaturedisposing Characteristic is alive', ':~']
+****************************************************************************************************filename: tv.h
+md5: 92944bdddbdcf6e406a03cc67a10de34
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: StringProcessor.java
+md5: 04e8e34925864e85587eca1378f2fa7c
+classname:
+['StringProcessor', 'Upcase', 'Downcase', 'Splitter']
+function:
+[{"function": "name", "params": [""]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}]
+include or import or require :
+[' java.util.*;']
+notes:
+[': interfaces/interfaceprocessor/StringProcessor.java', ' Covariant return', " Output:Using Processor UpcaseIF SHE WEIGHS THE SAME AS A DUCK, SHE'S MADE OF WOODUsing Processor Downcaseif she weighs the same as a duck, she's made of woodUsing Processor Splitter[If, she, weighs, the, same, as, a, duck,, she's, made, of, wood]", ':~']
+****************************************************************************************************filename: 16.4.c
+md5: 8a9a338cf43145bd5a072ee02a3eae80
+classname:
+
+function:
+[{"function": "connect_retry", "params": ["int sockfd", " const struct sockaddr *addr", " socklen_t alen"]}, {"function": "print_uptime", "params": ["int sockfd"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <unistd.h>', ' <netdb.h>', ' <errno.h>', ' <sys/socket.h>']
+notes:
+[]
+****************************************************************************************************filename: sales.h
+md5: ca476f6428584933bafb049bf4a847af
+classname:
+['Sales', 'bad_index', 'LabeledSales', 'nbad_index']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: 10.22.c
+md5: e28494cb0ae1f7456c14a970853517bd
+classname:
+
+function:
+[{"function": "sig_tstp", "params": ["int"]}, {"function": "sig_tstp", "params": ["int signo"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <signal.h>', ' <unistd.h>']
+notes:
+['sdadaw asds ', 'eqwr wqde a']
+****************************************************************************************************filename: mails.php
+md5: bc08e561f9cc6693cd2c90f7114d9949
+classname:
+[]
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[]
+notes:
+[' note we can get more detailed information by using from and to', ' rather than fromaddress and toaddress, but these are easier', ' does this user have an account with this id?', ' get an array of the account ids that belong to this user', ' get the number of accounts that belong to this user', "delete one of this user's accounts from the DB"]
+****************************************************************************************************filename: iterator.php
+md5: ddb0e8015899049f7d895daaad96f1ba
+classname:
+['ObjectIterator', 'Object']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[]
+notes:
+['deqwqew312\t', 'vsdfvs', 'eqwfr', 'weqw']
+****************************************************************************************************filename: pairs.cpp
+md5: 2ae3f14d48b74f41b3ab8d9d4bc882dd
+classname:
+
+function:
+[]
+include or import or require :
+[' <iostream>', ' <string>']
+notes:
+[' pairs.cpp -- define and use a Pair template']
+****************************************************************************************************filename: Frog.java
+md5: e4c4478d96189795a436344a92f25017
+classname:
+['Characteristic', 'Description', 'LivingCreature', 'Animal', 'Amphibian', 'Frog']
+function:
+[{"function": "Characteristic", "params": ["String s"]}, {"function": "Description", "params": ["String s"]}, {"function": "Animal", "params": [""]}, {"function": "Amphibian", "params": [""]}, {"function": "Frog", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': polymorphism/Frog.java', ' Cleanup and inheritance.', ' Output:Creating Characteristic is aliveCreating Description Basic Living CreatureLivingCreature()Creating Characteristic has heartCreating Description Animal not VegetableAnimal()Creating Characteristic can live in waterCreating Description Both water and landAmphibian()Creating Characteristic CroaksCreating Description Eats BugsFrog()Bye!Frog disposedisposing Description Eats Bugsdisposing Characteristic CroaksAmphibian disposedisposing Description Both water and landdisposing Characteristic can live in waterAnimal disposedisposing Description Animal not Vegetabledisposing Characteristic has heartLivingCreature disposedisposing Description Basic Living Creaturedisposing Characteristic is alive', ':~']
+****************************************************************************************************filename: tv.h
+md5: 92944bdddbdcf6e406a03cc67a10de34
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: ConcreteStates.h
+md5: 1e308e08004c66b06b877b337f939d24
+classname:
+['ImpossibleException', 'ReadyState', 'RunningState', 'BlockedState']
+function:
+[{"function": "ReadyState", "params": ["Process *p", " string n"]}, {"function": "RunningState", "params": ["Process *p", " string n"]}, {"function": "BlockedState", "params": ["Process *p", " string n"]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}]
+include or import or require :
+[' <iostream>', ' <string>', ' "Process.h"']
+notes:
+[]
+****************************************************************************************************filename: vect2.cpp
+md5: 20cae87285f11cf16a490be973a3d00b
+classname:
+
+function:
+[{"function": "FillReview", "params": ["Review & rr"]}, {"function": "ShowReview", "params": ["const Review & rr"]}, {"function": "FillReview", "params": ["Review & rr"]}, {"function": "ShowReview", "params": ["const Review & rr"]}]
+include or import or require :
+[' <iostream>', ' <string>', ' <vector>']
+notes:
+[' vect2.cpp -- methods and iterators', ' copy constructor used', ' remove 2 items', ' insert 1 item']
+****************************************************************************************************filename: sales.h
+md5: ca476f6428584933bafb049bf4a847af
+classname:
+['Sales', 'bad_index', 'LabeledSales', 'nbad_index']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: State.h
+md5: c2f10f509a1486f4221ac1680532ca75
+classname:
+['State']
+function:
+[{"function": "State", "params": ["string n"]}, {"function": "getName", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}]
+include or import or require :
+[' <string>']
+notes:
+[]
+****************************************************************************************************filename: tabtenn1.h
+md5: 9ba3a09c1cea120c0d3a190008238072
+classname:
+['class', 'class']
+function:
+[{"function": "Name", "params": [""]}, {"function": "HasTable", "params": [""]}, {"function": "ResetTable", "params": ["bool v"]}, {"function": "Rating", "params": [""]}, {"function": "ResetRating", "params": ["unsigned int r"]}]
+include or import or require :
+[]
+notes:
+[' tabtenn1.h  -- simple inheritance', ' simple base class', ' simple derived class']
+****************************************************************************************************filename: workermi.h
+md5: b91aecdc37a327ecfd3cc392e3efacd3
+classname:
+['Worker', 'Waiter', 'Singer', 'SingingWaiter']
+function:
+[{"function": "Worker", "params": [""]}, {"function": "Waiter", "params": [""]}, {"function": "Singer", "params": [""]}, {"function": "SingingWaiter", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}]
+include or import or require :
+[' <string>']
+notes:
+[' workermi.h  -- working classes with MI', ' an abstract base class', ' pure virtual function', ' string equivs of voice types', ' multiple inheritance']
+****************************************************************************************************filename: pairs.cpp
+md5: 2ae3f14d48b74f41b3ab8d9d4bc882dd
+classname:
+
+function:
+[]
+include or import or require :
+[' <iostream>', ' <string>']
+notes:
+[' pairs.cpp -- define and use a Pair template']
+****************************************************************************************************filename: tv.h
+md5: 92944bdddbdcf6e406a03cc67a10de34
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: sales.h~
+md5: 178301f5691e13ad88c0a7a9ec5fea3c
+classname:
+['Sales', 'bad_index', 'LabeledSales', 'nbad_index']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: tv.h~
+md5: 41b663d91bf52d7a4312342ceb20d47b
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: ConcreteStates.h
+md5: 1e308e08004c66b06b877b337f939d24
+classname:
+['ImpossibleException', 'ReadyState', 'RunningState', 'BlockedState']
+function:
+[{"function": "ReadyState", "params": ["Process *p", " string n"]}, {"function": "RunningState", "params": ["Process *p", " string n"]}, {"function": "BlockedState", "params": ["Process *p", " string n"]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}]
+include or import or require :
+[' <iostream>', ' <string>', ' "Process.h"']
+notes:
+[]
+****************************************************************************************************filename: vect2.cpp
+md5: 20cae87285f11cf16a490be973a3d00b
+classname:
+
+function:
+[{"function": "FillReview", "params": ["Review & rr"]}, {"function": "ShowReview", "params": ["const Review & rr"]}, {"function": "FillReview", "params": ["Review & rr"]}, {"function": "ShowReview", "params": ["const Review & rr"]}]
+include or import or require :
+[' <iostream>', ' <string>', ' <vector>']
+notes:
+[' vect2.cpp -- methods and iterators', ' copy constructor used', ' remove 2 items', ' insert 1 item']
+****************************************************************************************************filename: sales.h
+md5: ca476f6428584933bafb049bf4a847af
+classname:
+['Sales', 'bad_index', 'LabeledSales', 'nbad_index']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: State.h
+md5: c2f10f509a1486f4221ac1680532ca75
+classname:
+['State']
+function:
+[{"function": "State", "params": ["string n"]}, {"function": "getName", "params": [""]}, {"function": "resumedByCpu", "params": [""]}, {"function": "timeSlotEnd", "params": [""]}, {"function": "needIO", "params": [""]}, {"function": "finishIO", "params": [""]}]
+include or import or require :
+[' <string>']
+notes:
+[]
+****************************************************************************************************filename: tabtenn1.h
+md5: 9ba3a09c1cea120c0d3a190008238072
+classname:
+['class', 'class']
+function:
+[{"function": "Name", "params": [""]}, {"function": "HasTable", "params": [""]}, {"function": "ResetTable", "params": ["bool v"]}, {"function": "Rating", "params": [""]}, {"function": "ResetRating", "params": ["unsigned int r"]}]
+include or import or require :
+[]
+notes:
+[' tabtenn1.h  -- simple inheritance', ' simple base class', ' simple derived class']
+****************************************************************************************************filename: workermi.h
+md5: b91aecdc37a327ecfd3cc392e3efacd3
+classname:
+['Worker', 'Waiter', 'Singer', 'SingingWaiter']
+function:
+[{"function": "Worker", "params": [""]}, {"function": "Waiter", "params": [""]}, {"function": "Singer", "params": [""]}, {"function": "SingingWaiter", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}, {"function": "Data", "params": [""]}, {"function": "Get", "params": [""]}, {"function": "Set", "params": [""]}, {"function": "Show", "params": [""]}]
+include or import or require :
+[' <string>']
+notes:
+[' workermi.h  -- working classes with MI', ' an abstract base class', ' pure virtual function', ' string equivs of voice types', ' multiple inheritance']
+****************************************************************************************************filename: pairs.cpp
+md5: 2ae3f14d48b74f41b3ab8d9d4bc882dd
+classname:
+
+function:
+[]
+include or import or require :
+[' <iostream>', ' <string>']
+notes:
+[' pairs.cpp -- define and use a Pair template']
+****************************************************************************************************filename: tv.h
+md5: 92944bdddbdcf6e406a03cc67a10de34
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: sales.h~
+md5: 178301f5691e13ad88c0a7a9ec5fea3c
+classname:
+['Sales', 'bad_index', 'LabeledSales', 'nbad_index']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: tv.h~
+md5: 41b663d91bf52d7a4312342ceb20d47b
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: StringProcessor.java
+md5: 04e8e34925864e85587eca1378f2fa7c
+classname:
+['StringProcessor', 'Upcase', 'Downcase', 'Splitter']
+function:
+[{"function": "name", "params": [""]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}]
+include or import or require :
+[' java.util.*;']
+notes:
+[': interfaces/interfaceprocessor/StringProcessor.java', ' Covariant return', " Output:Using Processor UpcaseIF SHE WEIGHS THE SAME AS A DUCK, SHE'S MADE OF WOODUsing Processor Downcaseif she weighs the same as a duck, she's made of woodUsing Processor Splitter[If, she, weighs, the, same, as, a, duck,, she's, made, of, wood]", ':~']
+****************************************************************************************************filename: 16.4.c
+md5: 8a9a338cf43145bd5a072ee02a3eae80
+classname:
+
+function:
+[{"function": "connect_retry", "params": ["int sockfd", " const struct sockaddr *addr", " socklen_t alen"]}, {"function": "print_uptime", "params": ["int sockfd"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <unistd.h>', ' <netdb.h>', ' <errno.h>', ' <sys/socket.h>']
+notes:
+[]
+****************************************************************************************************filename: sales.h
+md5: ca476f6428584933bafb049bf4a847af
+classname:
+['Sales', 'bad_index', 'LabeledSales', 'nbad_index']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[' <stdexcept>', ' <cstring>']
+notes:
+[' sales.h  -- exceptions and inheritance', ' could be a static const', ' bad index value', ' could be an enum']
+****************************************************************************************************filename: 10.22.c
+md5: e28494cb0ae1f7456c14a970853517bd
+classname:
+
+function:
+[{"function": "sig_tstp", "params": ["int"]}, {"function": "sig_tstp", "params": ["int signo"]}]
+include or import or require :
+[' <stdio.h>', ' <stdlib.h>', ' <signal.h>', ' <unistd.h>']
+notes:
+['sdadaw asds ', 'eqwr wqde a']
+****************************************************************************************************filename: mails.php
+md5: bc08e561f9cc6693cd2c90f7114d9949
+classname:
+[]
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[]
+notes:
+[' note we can get more detailed information by using from and to', ' rather than fromaddress and toaddress, but these are easier', ' does this user have an account with this id?', ' get an array of the account ids that belong to this user', ' get the number of accounts that belong to this user', "delete one of this user's accounts from the DB"]
+****************************************************************************************************filename: iterator.php
+md5: ddb0e8015899049f7d895daaad96f1ba
+classname:
+['ObjectIterator', 'Object']
+function:
+[{"function": "Sales", "params": ["int yy = 0"]}, {"function": "Sales", "params": ["int yy", " const double * gr", " int n"]}, {"function": "bad_index", "params": ["int ix", "      const char * s = \"Index error in Sales object\\n\""]}, {"function": "LabeledSales", "params": ["const char * lb = \"none\"", " int yy = 0"]}, {"function": "LabeledSales", "params": ["const char * lb", " int yy", " const double * gr", " int n"]}, {"function": "nbad_index", "params": ["const char * lb", " int ix", "      const char * s = \"Index error in LabeledSales object\\n\""]}, {"function": "bi_val", "params": [""]}, {"function": "Year", "params": [""]}, {"function": "label_val", "params": [""]}, {"function": "Label", "params": [""]}]
+include or import or require :
+[]
+notes:
+['deqwqew312\t', 'vsdfvs', 'eqwfr', 'weqw']
+****************************************************************************************************filename: pairs.cpp
+md5: 2ae3f14d48b74f41b3ab8d9d4bc882dd
+classname:
+
+function:
+[]
+include or import or require :
+[' <iostream>', ' <string>']
+notes:
+[' pairs.cpp -- define and use a Pair template']
+****************************************************************************************************filename: Frog.java
+md5: e4c4478d96189795a436344a92f25017
+classname:
+['Characteristic', 'Description', 'LivingCreature', 'Animal', 'Amphibian', 'Frog']
+function:
+[{"function": "Characteristic", "params": ["String s"]}, {"function": "Description", "params": ["String s"]}, {"function": "Animal", "params": [""]}, {"function": "Amphibian", "params": [""]}, {"function": "Frog", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': polymorphism/Frog.java', ' Cleanup and inheritance.', ' Output:Creating Characteristic is aliveCreating Description Basic Living CreatureLivingCreature()Creating Characteristic has heartCreating Description Animal not VegetableAnimal()Creating Characteristic can live in waterCreating Description Both water and landAmphibian()Creating Characteristic CroaksCreating Description Eats BugsFrog()Bye!Frog disposedisposing Description Eats Bugsdisposing Characteristic CroaksAmphibian disposedisposing Description Both water and landdisposing Characteristic can live in waterAnimal disposedisposing Description Animal not Vegetabledisposing Characteristic has heartLivingCreature disposedisposing Description Basic Living Creaturedisposing Characteristic is alive', ':~']
+****************************************************************************************************filename: tv.h
+md5: 92944bdddbdcf6e406a03cc67a10de34
+classname:
+['Tv', 'Remote']
+function:
+[{"function": "Tv", "params": ["int s = Off", " int mc = 100"]}, {"function": "Remote", "params": ["int m = Tv::TV"]}, {"function": "onoff", "params": [""]}, {"function": "ison", "params": [""]}, {"function": "volup", "params": [""]}, {"function": "voldown", "params": [""]}, {"function": "chanup", "params": [""]}, {"function": "chandown", "params": [""]}, {"function": "set_mode", "params": [""]}, {"function": "set_input", "params": [""]}, {"function": "settings", "params": [""]}, {"function": "volup", "params": ["Tv & t"]}, {"function": "voldown", "params": ["Tv & t"]}, {"function": "onoff", "params": ["Tv & t"]}, {"function": "chanup", "params": ["Tv & t"]}, {"function": "chandown", "params": ["Tv & t"]}, {"function": "set_chan", "params": ["Tv & t", " int c"]}, {"function": "set_mode", "params": ["Tv & t"]}, {"function": "set_input", "params": ["Tv & t"]}]
+include or import or require :
+[]
+notes:
+[' tv.h -- Tv and Remote classes', ' Remote can access Tv private parts', ' display all settings', ' on or off', ' assumed to be digitized', ' maximum number of channels', ' current channel setting', ' broadcast or cable', ' TV or VCR', ' controls TV or VCR']
+****************************************************************************************************filename: StringProcessor.java
+md5: 04e8e34925864e85587eca1378f2fa7c
+classname:
+['StringProcessor', 'Upcase', 'Downcase', 'Splitter']
+function:
+[{"function": "name", "params": [""]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}]
+include or import or require :
+[' java.util.*;']
+notes:
+[': interfaces/interfaceprocessor/StringProcessor.java', ' Covariant return', " Output:Using Processor UpcaseIF SHE WEIGHS THE SAME AS A DUCK, SHE'S MADE OF WOODUsing Processor Downcaseif she weighs the same as a duck, she's made of woodUsing Processor Splitter[If, she, weighs, the, same, as, a, duck,, she's, made, of, wood]", ':~']
+****************************************************************************************************filename: Apply.java
+md5: 5c28c2afb6eb2e2191e2ad1571420c91
+classname:
+['Processor', 'Upcase', 'Downcase', 'Splitter', 'Apply']
+function:
+[{"function": "name", "params": [""]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Object input"]}, {"function": "process", "params": ["Processor p", " Object s"]}]
+include or import or require :
+[' java.util.*;', ' static net.mindview.util.Print.*;']
+notes:
+[': interfaces/classprocessor/Apply.java', ' Covariant return', ' The split() argument divides a String into pieces:', ' Output:Using Processor UpcaseDISAGREEMENT WITH BELIEFS IS BY DEFINITION INCORRECTUsing Processor Downcasedisagreement with beliefs is by definition incorrectUsing Processor Splitter[Disagreement, with, beliefs, is, by, definition, incorrect]', ':~']
+****************************************************************************************************filename: Orc.java
+md5: 5a2b6e66f40485405b10e5ebf15e0f7e
+classname:
+['Villain', 'Orc']
+function:
+[{"function": "Villain", "params": ["String name"]}, {"function": "Orc", "params": ["String name", " int orcNumber"]}, {"function": "set", "params": ["String nm"]}, {"function": "toString", "params": [""]}, {"function": "change", "params": ["String name", " int orcNumber"]}, {"function": "toString", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': reusing/Orc.java', ' The protected keyword.', " Available because it's protected", " Output:Orc 12: I'm a Villain and my name is LimburgerOrc 19: I'm a Villain and my name is Bob", ':~']
+****************************************************************************************************filename: TypesForSets.java
+md5: 5eabb888dc04cfb337ce90d39d09ad16
+classname:
+['SetType', 'HashType', 'TypesForSets']
+function:
+[{"function": "SetType", "params": ["int n"]}, {"function": "HashType", "params": ["int n"]}, {"function": "equals", "params": ["Object o"]}, {"function": "toString", "params": [""]}, {"function": "hashCode", "params": [""]}, {"function": "TreeType", "params": ["int n"]}, {"function": "compareTo", "params": ["TreeType arg"]}, {"function": "test", "params": ["Set<T> set", " Class<T> type"]}]
+include or import or require :
+[' java.util.*;']
+notes:
+[': containers/TypesForSets.java', ' Methods necessary to put your own type in a Set.', ' Try to add duplicates', " Things that don't work:", ' Output: (Sample)[2, 4, 9, 8, 6, 1, 3, 7, 5, 0][0, 1, 2, 3, 4, 5, 6, 7, 8, 9][9, 8, 7, 6, 5, 4, 3, 2, 1, 0][9, 9, 7, 5, 1, 2, 6, 3, 0, 7, 2, 4, 4, 7, 9, 1, 3, 6, 2, 4, 3, 0, 5, 0, 8, 8, 8, 6, 5, 1][0, 5, 5, 6, 5, 0, 3, 1, 9, 8, 4, 2, 3, 9, 7, 3, 4, 4, 0, 7, 1, 9, 6, 2, 1, 8, 2, 8, 6, 7][0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9][0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]java.lang.ClassCastException: SetType cannot be cast to java.lang.Comparablejava.lang.ClassCastException: HashType cannot be cast to java.lang.Comparable', ':~']
+****************************************************************************************************filename: Frog.java~
+md5: fe762bf666db7b9e3d2a4cbda29fa0cb
+classname:
+['Characteristic', 'Description', 'LivingCreature', 'Animal', 'Amphibian', 'Frog']
+function:
+[{"function": "Characteristic", "params": ["String s"]}, {"function": "Description", "params": ["String s"]}, {"function": "LivingCreature", "params": [""]}, {"function": "Animal", "params": [""]}, {"function": "Amphibian", "params": [""]}, {"function": "Frog", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': polymorphism/Frog.java', ' Cleanup and inheritance.', ' Output:Creating Characteristic is aliveCreating Description Basic Living CreatureLivingCreature()Creating Characteristic has heartCreating Description Animal not VegetableAnimal()Creating Characteristic can live in waterCreating Description Both water and landAmphibian()Creating Characteristic CroaksCreating Description Eats BugsFrog()Bye!Frog disposedisposing Description Eats Bugsdisposing Characteristic CroaksAmphibian disposedisposing Description Both water and landdisposing Characteristic can live in waterAnimal disposedisposing Description Animal not Vegetabledisposing Characteristic has heartLivingCreature disposedisposing Description Basic Living Creaturedisposing Characteristic is alive', ':~']
+****************************************************************************************************filename: 09e0ab9576cd56999a48cbf9ca1d4aac.java
+md5: 2c6ce92c1a0a1c1db84db9068bd532a5
+classname:
+['PlayerNewLocationAreaEvent']
+function:
+[{"function": "PlayerNewLocationAreaEvent", "params": ["CustomRegionManager mgr", " Player player", " Location new_location", " String new_hash"]}, {"function": "getRegionHash", "params": [""]}, {"function": "toString", "params": [""]}]
+include or import or require :
+[' org.bukkit.Location;', ' org.bukkit.entity.Player;', ' org.bukkit.event.HandlerList;', ' de.jaschastarke.minecraft.limitedcreative.regions.worldguard.ApplicableRegions;', ' de.jaschastarke.minecraft.limitedcreative.regions.worldguard.CustomRegionManager;']
+notes:
+[' * Limited Creative - (Bukkit Plugin) * Copyright (C) 2012 jascha@ja-s.de * * This program is free software: you can redistribute it and/or modify * it under the terms of the GNU General Public License as published by * the Free Software Foundation, either version 3 of the License, or * (at your option) any later version. * * This program is distributed in the hope that it will be useful, * but WITHOUT ANY WARRANTY; without even the implied warranty of * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the * GNU General Public License for more details. * * You should have received a copy of the GNU General Public License * along with this program.  If not, see <http://www.gnu.org/licenses/>. ']
+****************************************************************************************************filename: Frog.java
+md5: e4c4478d96189795a436344a92f25017
+classname:
+['Characteristic', 'Description', 'LivingCreature', 'Animal', 'Amphibian', 'Frog']
+function:
+[{"function": "Characteristic", "params": ["String s"]}, {"function": "Description", "params": ["String s"]}, {"function": "Animal", "params": [""]}, {"function": "Amphibian", "params": [""]}, {"function": "Frog", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}, {"function": "dispose", "params": [""]}]
+include or import or require :
+[' static net.mindview.util.Print.*;']
+notes:
+[': polymorphism/Frog.java', ' Cleanup and inheritance.', ' Output:Creating Characteristic is aliveCreating Description Basic Living CreatureLivingCreature()Creating Characteristic has heartCreating Description Animal not VegetableAnimal()Creating Characteristic can live in waterCreating Description Both water and landAmphibian()Creating Characteristic CroaksCreating Description Eats BugsFrog()Bye!Frog disposedisposing Description Eats Bugsdisposing Characteristic CroaksAmphibian disposedisposing Description Both water and landdisposing Characteristic can live in waterAnimal disposedisposing Description Animal not Vegetabledisposing Characteristic has heartLivingCreature disposedisposing Description Basic Living Creaturedisposing Characteristic is alive', ':~']
+****************************************************************************************************filename: TextFields.java
+md5: 12d87b7f6770500e7edec60614a8bc07
+classname:
+['TextFields', 'T1', 'T1A', 'B1', 'B2', 'UpperCaseDocument']
+function:
+[{"function": "TextFields", "params": [""]}, {"function": "UpperCaseDocument", "params": [""]}, {"function": "changedUpdate", "params": ["DocumentEvent e"]}, {"function": "insertUpdate", "params": ["DocumentEvent e"]}, {"function": "removeUpdate", "params": ["DocumentEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "setUpperCase", "params": ["boolean flag"]}, {"function": "insertString", "params": ["int offset", " String str", " AttributeSet attSet"]}]
+include or import or require :
+[' javax.swing.*;', ' javax.swing.event.*;', ' javax.swing.text.*;', ' java.awt.*;', ' java.awt.event.*;', ' static net.mindview.util.SwingConsole.*;']
+notes:
+[': gui/TextFields.java', ' Text fields and Java events.', '/:~']
+****************************************************************************************************filename: Menus.java
+md5: cd68631a927f1033bcb6042fdb576dd4
+classname:
+['Menus', 'BL', 'ML', 'FL', 'FooL', 'BarL', 'BazL', 'CMIL']
+function:
+[{"function": "Menus", "params": [""]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "actionPerformed", "params": ["ActionEvent e"]}, {"function": "itemStateChanged", "params": ["ItemEvent e"]}]
+include or import or require :
+[' javax.swing.*;', ' java.awt.*;', ' java.awt.event.*;', ' static net.mindview.util.SwingConsole.*;']
+notes:
+[': gui/Menus.java', ' Submenus, check box menu items, swapping menus,', ' mnemonics (shortcuts) and action commands.', ' Alternative approach:', ' A second menu bar to swap to:', ' Adding a menu shortcut (mnemonic) is very', ' simple, but only JMenuItems can have them', ' in their constructors:', ' No shortcut:', ' Refresh the frame', ' Alternatively, you can create a different', ' class for each different MenuItem. Then you', " don't have to figure out which one it is:", ' Add separators at intervals:', ' Set up the system for swapping menus:', '/:~']
+****************************************************************************************************
