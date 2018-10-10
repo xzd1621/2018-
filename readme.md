@@ -1,1 +1,4 @@
 暑期实习项目，爬虫，代码提取，数据清洗
+sourceforge,scfile为sourceforge网站基本信息的爬取和文件的下载
+loongnix为龙芯开源网站基本信息的爬取和下载
+mavenscrapy为maven网站的爬取
